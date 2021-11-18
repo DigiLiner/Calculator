@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="@dimen/hcbutton_radius" />
+            <stroke android:width="@dimen/hcbutton_border_width" android:color="#5e7974" />
+            <gradient android:angle="-90" android:startColor="#345953" android:endColor="#689a92"  />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+          <corners android:radius="@dimen/hcbutton_radius" />
+            <stroke android:width="@dimen/hcbutton_border_width" android:color="#5e7974" />
+            <solid android:color="#58857e"/>
+             </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle" >
+          <size android:height="60dp" android:width="0dp"></size>
+          <corners android:radius="@dimen/hcbutton_radius" />
+            <stroke android:width="@dimen/hcbutton_border_width" android:color="@color/colorPrimaryDark" />
+            <gradient android:angle="-90" android:startColor="#FAFAFA" android:endColor="#BABABA" />
+                         </shape>
+    </item>
+</selector>

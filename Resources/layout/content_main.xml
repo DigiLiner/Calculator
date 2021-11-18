@@ -1,0 +1,240 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:background="#ff26c6da"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:padding="10dp"
+        style="@style/AppTheme.HcTextView"
+    >
+
+        <TextView
+            android:text="9876543210.01234"
+            android:id="@+id/textView1"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:transitionName="textView1"
+            android:layout_weight="8"
+            android:gravity="center|right"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:padding="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="9876543210.01234"
+            android:id="@+id/textViewPreview"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:transitionName="textView2"
+            android:layout_weight="2"
+            android:gravity="bottom|right"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        android:orientation="vertical"
+        android:weightSum="60"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <Button
+                android:text="CE"
+                android:id="@+id/button_ce"
+                style="@style/AppTheme.HcButtonRed"/>
+            <Button
+                android:text="MC"
+                android:id="@+id/button_mc"
+                style="@style/AppTheme.HcButtonYellow"/>
+
+            <Button
+                android:text="M"
+                android:id="@+id/button_m"
+                style="@style/AppTheme.HcButtonYellow"/>
+            <Button
+                android:text="&lt;"
+                android:id="@+id/button_back"
+                style="@style/AppTheme.HcButtonRed"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <Button
+                android:text="\u221a"
+                android:id="@+id/button_sqrt"
+                style="@style/AppTheme.HcButtonPink"/>
+            <Button
+                android:text="MR"
+                android:id="@+id/button_mr"
+                style="@style/AppTheme.HcButtonYellow"/>
+            <Button
+                android:text="Dum"
+                android:id="@+id/button_dummy"
+                style="@style/AppTheme.HcButtonYellow"/>
+
+            <Button
+                android:text="/"
+                android:id="@+id/button_div"
+                style="@style/AppTheme.HcButtonPink"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:text="7"
+                android:id="@+id/button_7"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+            <Button
+                android:text="8"
+                android:id="@+id/button_8"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+
+            <Button
+                android:text="9"
+                android:id="@+id/button_9"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+            <Button
+                android:text="X"
+                android:id="@+id/button_multi"
+                style="@style/AppTheme.HcButtonPink"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:text="4"
+                android:id="@+id/button_4"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+            <Button
+                android:text="5"
+                android:id="@+id/button_5"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+
+            <Button
+                android:text="6"
+                android:id="@+id/button_6"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+
+            <Button
+                android:text="-"
+                android:id="@+id/button_minus"
+                style="@style/AppTheme.HcButtonPink"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:text="1"
+                android:id="@+id/button_1"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+
+
+
+            <Button
+                android:text="2"
+                android:id="@+id/button_2"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+
+
+
+
+            <Button
+                android:text="3"
+                android:id="@+id/button_3"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+
+            <Button
+                android:text="+"
+                android:id="@+id/button_add"
+                style="@style/AppTheme.HcButtonPink"
+             />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <Button
+                android:text="0"
+                android:id="@+id/button_0"
+                style="@style/AppTheme.HcButtonWhite"
+                android:tag="digit"/>
+
+            <Button
+                android:text="."
+                android:id="@+id/button_dot"
+                style="@style/AppTheme.HcButtonWhite"/>
+
+
+            <Button
+                android:text="+/-"
+                android:id="@+id/button_plus_minus"
+                style="@style/AppTheme.HcButtonWhite"/>
+
+            <Button
+                android:text="="
+                android:id="@+id/button_equals"
+                style="@style/AppTheme.HcButtonLightBlue"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

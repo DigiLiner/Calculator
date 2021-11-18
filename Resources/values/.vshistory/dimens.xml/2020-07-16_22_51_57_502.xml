@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="hcbutton_radius">10dp</dimen>
+    <dimen name="hcbutton_border_width">2px</dimen>
+    <dimen name="hcbutton_margin">7dp</dimen>
+    <dimen name="hcbutton_padding_left">10dp</dimen>
+    <dimen name="hcbutton_padding_top">10dp</dimen>
+    <dimen name="hcbutton_padding_right">10dp</dimen>
+    <dimen name="hcbutton_padding_bottom">10dp</dimen>
+    <dimen name="hcbutton_weight">.1</dimen>
+    <dimen name="hcbutton_width">0dp</dimen>
+    <dimen name="hcbutton_height">"match_parent"</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    
+
+    <style name="AppTheme.HcTextview">
+      <item name="android:background" >@drawable/hctextview</item>
+        
+    </style>
+
+
+   
+
+</resources>
